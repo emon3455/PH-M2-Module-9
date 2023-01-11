@@ -14,10 +14,10 @@
     color: #ffff;
     background-color: #fd6e0a;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.2rem;
     border: 0;
     border-radius: 5px;
-    padding: 10px 25px;
+    padding: 0.5rem 1rem;
 
 }
 
@@ -26,8 +26,8 @@
     color: #fd6e0a;
     border: 1px solid #fd6e0a;
     font-weight: 700;
-    font-size: 20px;
-    padding: 10px 25px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 
@@ -36,35 +36,36 @@
     background-image: url(../images/header_bg.png) , url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right , center left;
-    background-size: 800px, 75px;
+    background-size: 50rem, 4rem;
 }
 
 section{
-    margin-top: 130px;
+    margin-top: 8rem;
 }
 .section-header{
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2rem;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 2rem;
 }
 
 .section-description{
 
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
     color: #757575;
-    margin-bottom: 40px;
+    margin-bottom: 2.2rem;
 }
 /* common code  end*/
+
 
 /* Header and navigation style start */
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 200px;
+  margin: 0 12rem;
 }
 
 nav ul {
@@ -75,11 +76,11 @@ nav ul {
 nav li {
   list-style: none;
   text-decoration: none;
-  margin-left: 50px;
+  margin-left: 3rem;
 }
 .nav-title {
   font-weight: 800;
-  font-size: 45px;
+  font-size: 2rem;
 }
 
 /* Header and navigation style end */
@@ -88,26 +89,26 @@ nav li {
 /* banner start */
 
 .banner{
-    margin: 0 80px 0 200px;
+    margin: 0 4rem 0 12rem;
     display: flex;
     align-items: center;
 }
 
 .banner-sub-title{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-bottom: 5px;
 }
 
 .banner-title{
     font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
 }
 
 .banner-descreption{
     color: #757575;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .hero{
@@ -124,10 +125,9 @@ main{
 }
 
 .about{
-  
     background-color:  #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 8rem 9rem;
     text-align: center;
 }
 
@@ -139,13 +139,13 @@ main{
 
 .about .info-title{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     color: #757575;
 }
 
 .about .info-description{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1rem;
     color: #474747;
 }
 
@@ -154,59 +154,57 @@ main{
 
 /* what i do section start */
 
+.what-i-do{
+    padding: 1rem;
+}
+
 .skill{
     background: #ffffff;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.3rem 3rem rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
 .skill-container{
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .skill-title{
     font-weight: 700;
-    font-size: 20px;
-    padding: 30px 60px 0 30px;
+    font-size: 1.2rem;
+    padding: 2rem 4rem 0 2rem;
 }
 
 .skill-description{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: #757575;
-    padding: 30px;
+    padding: 1rem;
 }
 
 .skill-img{
-    padding: 30px 193px 0px 30px;
+    padding: 2rem 10rem 0px 1.5rem;
 }
 /* what i do section end */
 
-/* resume style start */
 
+/* resume style start */
 .resume-content{
     display: flex;
-    gap: 70px;
+    gap: 5rem;
 }
 
-.resume-item{
-    margin-bottom: 30px;
-}
-.resume-tittle{
-    margin-bottom: 30px;
+.resume-item, .resume-tittle{
+    margin-bottom: 1.5rem;
 }
 
 .resume-item .title{
-    margin-bottom: 10px;
+    margin-bottom: 0.7rem;
 }
 
-.resume-item .sub-title{
-    margin-bottom: 20px;
+.resume-item .sub-title, .description{
+    margin-bottom: 1rem;
 }
 
-.resume-item .description{
-    margin-bottom: 20px;
-}
 .resume-btn{
     text-align: center;
 }
@@ -217,9 +215,16 @@ main{
 
 .contact{
     display: flex;
-    gap: 110px;
+    gap: 9rem;
     background-color: #FFF8F3;
-    padding: 100px 20px 20px 20px;
+    padding: 7rem 1rem 1rem 1rem;
+}
+
+.contact-left{
+    width: 50%;
+}
+.contact-right{
+    width: 50%;
 }
 
 .contact .section-title{
@@ -228,15 +233,15 @@ main{
 
 
 .contact input[type="text"], input[type="email"],textarea{
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     border: none;
-    padding-left: 20px;
-    width: 440px;
-    height: 44px;
+    padding-left: 1.1rem;
+    width: 27rem;
+    height: 2.7rem;
 }
 
 .contact textarea{
-    height: 80px;
+    height: 5rem;
 }
 
 .contact a{
@@ -244,13 +249,125 @@ main{
 }
 
 .contact .section-title{
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
 }
 
 .contact-description{
     margin: 10px 0;
 }
-
-
 /* contact style end */
+
+/* responsive style start */
+
+@media screen and (max-width: 576px){
+
+    /* about start */
+    .about{
+        padding: 2rem;  
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    /* about end */
+
+    
+    /* what i do style start */
+    .skill-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .skill-title{
+        font-size: 1rem;
+        padding: 1rem 3rem 0 1rem;
+    }
+    
+    .skill-description{
+        font-size: 0.8rem;
+        color: #757575;
+        padding: 1rem;
+    }
+    /* what i do style end */
+
+
+    /* resume style start */
+    .resume-content{
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0rem;
+    }
+    /* resume style end */
+
+    /* contact start */
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 3rem 0.5rem 0.5rem 0.5rem;
+    }
+    .contact input[type="text"], input[type="email"],textarea{
+        margin-bottom: 1rem;
+        border: none;
+        padding-left: 1rem;
+        width: 20rem;
+        height: 2rem;
+    }
+    .contact .section-title{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    .contact-right{
+        width: 100%;
+    }
+    /* contact end */
+
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+
+    /* about start */
+    .about{
+        padding: 2rem;
+    }
+    /* about end */
+
+    /* what i do style start */
+    .skill-container{
+        gap: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skill{
+        width: 40%;
+    }
+    /* what i do style end */
+
+    /* resume style start */
+    .resume{
+        padding-left: 1.5rem;
+    }
+    .resume-content{
+        padding: 1rem;
+        gap: 2rem;
+    }
+    /* resume style end */
+
+    /* contact start */
+    .contact{
+        gap: 7rem;
+        margin: 1rem;
+    }
+    /* contact end */
+    
+}
+
+.hide{
+    display: none;
+}
+
+/* responsive style end */
