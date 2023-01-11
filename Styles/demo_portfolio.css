@@ -94,6 +94,14 @@ nav li {
     align-items: center;
 }
 
+.bn-container{
+    width: 50%;
+}
+
+.bn-img{
+    width: 50%;
+}
+
 .banner-sub-title{
     font-weight: 500;
     font-size: 1.2rem;
@@ -262,6 +270,48 @@ main{
 
 @media screen and (max-width: 576px){
 
+    /* header start */
+
+    .banner-btn{
+        text-align: center;
+    }
+    .banner-btn .btn-primary{
+       margin-bottom: 5px;
+    }
+    .banner{
+        margin: 0rem;
+        flex-direction: column;
+    }
+    
+    .banner-sub-title{
+        font-size: 1.2rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    .banner-title{
+        font-size: 2rem;
+        margin: 0.6rem 0;
+        text-align: center;
+    }
+    
+    .banner-descreption{
+        color: #757575;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .banner img{
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+        margin: 0rem;
+    }
+    nav h2{
+        text-align: center;
+    }
+    /* header end */
+
     /* about start */
     .about{
         padding: 2rem;  
@@ -286,6 +336,16 @@ main{
         font-size: 0.8rem;
         color: #757575;
         padding: 1rem;
+    }
+    .banner img{
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+        margin: 0rem;
+    }
+    nav h2{
+        text-align: center;
     }
     /* what i do style end */
 
@@ -329,6 +389,33 @@ main{
 
 @media screen and (min-width: 577px) and (max-width: 992px){
 
+    /* header start */
+    .banner-btn{
+        text-align: center;
+     }
+    .banner{
+        margin: 0rem;
+        flex-direction: column;
+    }
+    
+    .banner-sub-title{
+        font-size: 1.2rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    .banner-title{
+        font-size: 2rem;
+        margin: 0.6rem 0;
+        text-align: center;
+    }
+    
+    .banner-descreption{
+        color: #757575;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    /* header end */
 
     /* about start */
     .about{
